@@ -8,35 +8,55 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
+    /* Deeper Life Bible Church Brand Colors */
     --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
-
+    --foreground: 217 64% 14%;
+    
+    /* Deep Blue Core (#003A7C) */
+    --primary: 217 100% 24%;
+    --primary-foreground: 0 0% 100%;
+    
+    /* Gold Accent (#F5B700) */
+    --accent: 41 100% 48%;
+    --accent-foreground: 217 100% 24%;
+    
+    /* Light Sky Blue (#87CEFA) */
+    --secondary: 203 92% 75%;
+    --secondary-foreground: 217 100% 24%;
+    
+    /* Card and Surface Colors */
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
-
+    --card-foreground: 217 64% 14%;
+    
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
-
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
-
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
-
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
-
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
-
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
-
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
-
-    --radius: 0.5rem;
+    --popover-foreground: 217 64% 14%;
+    
+    --muted: 203 92% 95%;
+    --muted-foreground: 217 32% 46%;
+    
+    /* Warm Orange Accent (#E68800) */
+    --orange: 33 100% 45%;
+    --orange-foreground: 0 0% 100%;
+    
+    /* Rich Purple (#6A0DAD) */
+    --purple: 276 93% 36%;
+    --purple-foreground: 0 0% 100%;
+    
+    /* System Colors */
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+    
+    --border: 203 92% 85%;
+    --input: 203 92% 85%;
+    --ring: 41 100% 48%;
+    
+    --radius: 0.75rem;
+    
+    /* Church-specific Design Tokens */
+    --hero-gradient: linear-gradient(135deg, hsl(217 100% 24% / 0.9), hsl(217 100% 24% / 0.7));
+    --gold-glow: 0 0 30px hsl(41 100% 48% / 0.4);
+    --shadow-divine: 0 20px 40px -10px hsl(217 100% 24% / 0.3);
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 
     --sidebar-background: 0 0% 98%;
 
