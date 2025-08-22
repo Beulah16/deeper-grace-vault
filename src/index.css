@@ -16,9 +16,9 @@ All colors MUST be HSL.
     --primary: 217 100% 24%;
     --primary-foreground: 0 0% 100%;
     
-    /* Gold Accent (#F5B700) */
-    --accent: 41 100% 48%;
-    --accent-foreground: 217 100% 24%;
+    /* Orange-Red Accent (#f8430f) */
+    --accent: 14 95% 52%;
+    --accent-foreground: 0 0% 100%;
     
     /* Light Sky Blue (#87CEFA) */
     --secondary: 203 92% 75%;
